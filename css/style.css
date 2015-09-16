@@ -65,13 +65,23 @@ img { border: 0; max-width: 100%; }
 }
 
 #topnav .logo {
-  float: left;
-  padding:0;
+	float: left;
+	padding:0;
+	width: 40px;
+	height: 30px;
+	margin: 16px auto 28px auto;
+	background:url(http://v.zjstv.com/t/1/13/images/2015shouyeico.png) no-repeat 0 -163px
 }
-#topnav .logo a {
-  text-decoration: none;
-  padding: 3px 7px;
-  display:block;
+#topnav .logo .gz {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	width: 55px;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 30px;
+	margin-left: -10px;
 }
 
 #topnav #navbtn {
@@ -524,7 +534,7 @@ color:#C0B9CD;
 }
 .para-contact h4{
 	color:#F2F2F2;
-	font-size:1.8em;
+	font-size:1.5em;
 }
 .para-contact p{
 	font-size:0.990em;
@@ -533,6 +543,12 @@ color:#C0B9CD;
 	font-family : 'Open Sans', sans-serif;
 	margin-top:0.5em;
 	width: 89%;
+}
+.para-contact a:link,.para-contact a:visited{
+	color: #666666;
+}
+.para-contact a:hover{
+	text-decoration: underline;
 }
 .contact-form {
 	padding: 2em 0 1em;
@@ -557,6 +573,7 @@ color:#C0B9CD;
 }
 .get-intouch-left-address p a:hover{
 	color:#fff;
+	text-decoration: underline;
 }
 .contact input[type="text"],.contact textarea{
 	padding: 15px;
@@ -912,35 +929,21 @@ li.icon1_t > a > span:hover {
 	margin-right:1em;
 	display: inline-block;
 }
-.social_2 li  a span
+.social_2 li  a img
 {
-	height:42px;
-	width:42px;
+	height:50px;
+	width:50px;
 	display: block;
-	background: url(../images/spriteimg.png);
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-li.facebook a span {
-	background-position:-8px -54px;
-}
-li.facebook a span:hover {
+li.weixin a img:hover {
 	opacity:0.8;
 }
-
-li.twitter a span {
-	background-position:-108px -54px ;
-}
-li.twitter a span:hover {
-	opacity:0.8;
-}
-li.google a span {
-	background-position: -59px -54px;
-}
-li.google a span:hover {
+li.weibo a img:hover {
 	opacity:0.8;
 }
 .button input[type="submit"],.send_button input[type="submit"] {
@@ -1334,6 +1337,14 @@ ul.sidebar_1 li {
 	width: 30px;
 	height: 30px;
 	vertical-align: middle;
+}
+.get-intouch-left-address .f_l{
+	float: left;
+	margin: 10px 20px 10px auto;
+}
+.get-intouch-left-address p{
+	display: block;
+	float: left;
 }
 /*******end_blog_innerpage***/
 /*********responsive_media _queries********/

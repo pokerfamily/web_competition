@@ -55,7 +55,7 @@
 	white-space: nowrap;
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	font-size:4em;
+	font-size:3.7em;
 	text-align: center;
 	font-family: '微软雅黑', sans-serif;
 }
@@ -94,7 +94,7 @@
 	padding:1.1em 3.2em;
 	text-decoration:none;
 	text-align:center;
-	margin-left: 32%;
+	margin-left: 29%;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
