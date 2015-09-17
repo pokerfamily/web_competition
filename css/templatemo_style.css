@@ -1,7 +1,7 @@
 
 
 /******************************* General Styles **********************************/
-html, body { font-family: 'Open Sans', sans-serif; font-size: 12px; padding: 0px; margin: 0px; margin-top: 10px; color: white; background: #596168; }
+html, body { font-family: "微软雅黑", sans-serif; font-size: 12px; padding: 0px; margin: 0px; margin-top: 10px; color: white; background: #596168; }
 body { width: 100%; display: table; }
 p { font-size: 14px; color: #aeb5ba; max-width: 500px; margin-left: auto; margin-right: auto; }
 a { text-decoration: none; color: white; }
@@ -236,7 +236,6 @@ button:focus { border: none; outline:none; }
   width: 160px;
   margin-right: 5px;
   color: #cccccc;
-  font-family: 'Open Sans',sans-serif;
   font-weight: 400;
 }
 .templatemo_form textarea {
@@ -247,9 +246,9 @@ button:focus { border: none; outline:none; }
   border-radius: 0px; 
   background: #343536; 
   border: 1px solid #4b5257; 
+  font-family: "微软雅黑";
   margin-top: 10px; 
   color: #cccccc;
-  font-family: 'Open Sans',sans-serif;
   font-weight: 400;
 }
 .contact a { color: #a2c044; }

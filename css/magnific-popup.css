@@ -28,18 +28,6 @@
 	margin-right: 8%;
 	}
 }
-@media only screen and (max-width: 640px)
-{
-	#small-dialog1, #small-dialog2, #small-dialog3, #small-dialog4, #small-dialog5, #small-dialog6 {
-max-width: 80%;
-}
-.pop_up,.pop_up2,.pop_up3,.pop_up4,.pop_up5,.pop_up6 {
-padding: 1em;
-}
-.payment-online-form-left input[type="text"] {
-	width: 41%;
-	}
-}
 @media only screen and (max-width: 480px)
 {
 	.payment-online-form-left input[type="text"] {
@@ -50,6 +38,9 @@ padding: 1em;
 	padding: 1.5em 0em;
 	background: #EEE;
 	}
+  .portfolio_main .over{
+    display: none;
+  }
 }
 .portfolio_main .container { position:relative; width: 894px; height: 920px; padding-left: 0; margin: 0 auto; padding-top: 75px; }
 
@@ -321,4 +312,121 @@ padding: 1em;
 .portfolio_main #contact1 { position: absolute; left: 357px; top: 135px; }
 
 /******************************* end Contact Styles *********************************/
-
+@media only screen and (max-width: 950px)
+{
+  .portfolio_main .container{
+    width: 80%;
+    height: 910px;
+  }
+  .portfolio_main .menu{
+    width: 480px;
+    margin: 0 auto;
+  }
+  .portfolio_main #logo{
+    display: none;
+  }
+  .portfolio_main #team{
+    left:-35px;
+    top: 95px;
+  }
+  .portfolio_main #services{
+    left:150px;
+    top: 95px;
+  }
+  .portfolio_main #contact1{
+    left:335px;
+    top: 95px;
+  }
+  #gallery-content h1{
+    color: #000;
+    margin: 0 auto auto auto;
+  }
+  .portfolio_main .content{
+    top: 335px;
+  }
+  .portfolio_main #gallery-content .pagination {
+    top:auto;
+    width: 380px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto; 
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+    bottom: 80px;
+   }
+   .portfolio_main .container {
+    border-radius:5px; 
+   }
+}
+@media only screen and (max-width: 878px)
+{
+  .portfolio_main .container{
+    height: 1050px;
+  }
+  .portfolio_main #gallery-content .pagination {
+    width: 270px;
+    margin-left: -135px;
+  }
+}
+@media only screen and (max-width: 640px)
+{
+  #small-dialog1, #small-dialog2, #small-dialog3, #small-dialog4, #small-dialog5, #small-dialog6 {
+    max-width: 80%;
+  }
+  .pop_up,.pop_up2,.pop_up3,.pop_up4,.pop_up5,.pop_up6 {
+    padding: 1em;
+  }
+  .payment-online-form-left input[type="text"] {
+    width: 41%;
+    }
+  .portfolio_main #team{
+      display: none;
+  }
+  .portfolio_main #services{
+    left:10px;
+    top: 115px;
+  }
+  .portfolio_main #contact1{
+    left:195px;
+    top:115px;
+  }
+  .portfolio_main .content{
+      top: 355px;
+  }
+}
+@media only screen and (max-width: 587px)
+{
+  .portfolio_main .content{
+    height: 650px;
+    overflow: hidden;
+  }
+  .portfolio_main #gallery-content .pagination {
+    width: 120px;
+    margin-left: -60px;
+  }
+}
+@media only screen and (max-width: 570px)
+{
+  .portfolio_main .container{
+    height: 920px;
+  }
+  .portfolio_main #contact1,#services{
+    display: none;
+  }
+  .portfolio_main .content{
+      top: 205px;
+  }
+  .images_1_of_4
+  {
+    width: 95%;
+    margin: 0;
+  }
+  .images_1_of_4:nth-child(2),.images_1_of_4:nth-child(3),.images_1_of_4:nth-child(4)
+  {
+    margin-top: 60px;
+  }
+  .images_1_of_4 .button a {
+    padding: 9px 30px;
+}
+}
