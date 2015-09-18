@@ -3,8 +3,7 @@
 	height:580px;
 	position: relative;
 	overflow: hidden;
-	background-color: #593A76;
-    opacity: 0.5;
+	background: url(../images/slider-bg.png);
 	-webkit-transition: background-position 1s ease-out 0.3s;
 	-moz-transition: background-position 1s ease-out 0.3s;
 	-o-transition: background-position 1s ease-out 0.3s;
@@ -19,7 +18,7 @@
 	top: 0px;
 	left: 0px;
 	text-align: left;
-	font-family: '微软雅黑', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .da-slide-current{
 	z-index: 1000;
@@ -55,9 +54,9 @@
 	white-space: nowrap;
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	font-size:3.7em;
+	font-size:4em;
 	text-align: center;
-	font-family: '微软雅黑', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .da-slide p{
 	top:269px;
@@ -65,7 +64,7 @@
 	font-size: 1.4em;
 	height: 80px;
 	overflow: hidden;
-	font-family: '微软雅黑', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	line-height: 29px;
 	text-align: center;
@@ -85,7 +84,7 @@
 }
 .da-slide .da-link{
 	top:355px; /*depends on p height*/
-	font-family: '微软雅黑', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border:2px solid #fff;
 	display:inline-block;
 	color:#ffffff;
@@ -94,7 +93,7 @@
 	padding:1.1em 3.2em;
 	text-decoration:none;
 	text-align:center;
-	margin-left: 29%;
+	margin-left: 32%;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -104,7 +103,7 @@
 	-o-border-radius:5px;	
 }
  .da-link:hover{
- 	background-color:#C83434;
+ 	background-color:#296E6F;
  }
 .da-arrows{
 	-moz-user-select: none;
@@ -759,13 +758,6 @@
 	top: 42%;
 	}
 }
-/**iphone6S**/
-@media only screen and (max-width: 414px) and (min-width:375px) {
-	.portfolio_main #services{
-		left:40px;
-	}
-}
-/**iphone4 5**/
 @media only screen and (max-width: 480px) and (min-width:320px) {
 	.da-dots {
 		width:100%
@@ -795,22 +787,12 @@
 	right: -3px;
 	}
 	.da-arrows span {
-		top: 42%;
-	}
-	.portfolio_main #contact1{
-		display: none;
+	top: 42%;
 	}
 }
-/**iphone6**/
-@media only screen and (max-width: 380px) and (min-width:375px) {
-	.portfolio_main #services{
-		left:30px;
-	}
-}
-/**iphone4 5**/
 @media only screen and (max-width: 320px) and (min-width:240px) {
 	.slider {
-	background: #C83434 url(../images/head.jpg) no-repeat;
+	background: #49CBCD url(../images/bg.png) no-repeat;
 	background-size: 100% 100%;
 	}
 	.da-dots {
@@ -842,8 +824,5 @@
 	}
 	.da-arrows span {
 	top: 42%;
-	}
-	.portfolio_main #contact1{
-		display: none;
 	}
 }
